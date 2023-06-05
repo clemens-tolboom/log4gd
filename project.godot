@@ -11,3 +11,12 @@ config_version=5
 [application]
 
 config/features=PackedStringArray("4.0")
+run/flush_stdout_on_print=true
+
+[autoload]
+
+Log4Gd="*res://addons/log4gd/log4gd.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray()
