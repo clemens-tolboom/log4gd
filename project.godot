@@ -10,6 +10,7 @@ config_version=5
 
 [application]
 
+run/main_scene="res://addons/log4gd/example/logging_example.tscn"
 config/features=PackedStringArray("4.0")
 run/flush_stdout_on_print=true
 
