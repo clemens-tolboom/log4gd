@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4m7efhcl0cnk"]
+
+[ext_resource type="Script" path="res://addons/log4gd/example/logging_example.gd" id="1_xhgjw"]
+
+[node name="logging_example" type="Node2D"]
+script = ExtResource("1_xhgjw")
