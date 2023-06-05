@@ -119,11 +119,3 @@ class DefaultLogger:
 
 	func _to_string() -> String:
 		return _name + " " + enum_string[_level]
-
-## WIP: Log to a file
-class FileLogger:
-	extends DefaultLogger
-	var file_name = "user://log4gd.log"
-
-	func set_config(config: Dictionary):
-		pass
