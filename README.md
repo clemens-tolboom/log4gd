@@ -1,6 +1,8 @@
 # log4gd
 
-Logger for Godot inspired by Log4J
+> We have [10+ loggers](https://github.com/search?q=godot%20logger&type=repositories) for Godot so why another one? It was in the works :-/
+
+Logger for Godot inspired by Log4J.
 
 Have you ever wondered why Godot doesn't have a class based logger? Well, I did. So I made one.
 
