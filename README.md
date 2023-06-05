@@ -10,11 +10,28 @@ Using one of the `print*` statements to try remove a bug is a pain. You have to 
 
 Download the latest release and put it in your `addons` folder.
 
+## Autoload
+
+Add the addon to your autoload. Make sure its name is `Log4Gd` and not its class name `Log4GD`
+
 ## Usage
 
-```gdscript
-var logger = Logger.new("MyClass")
+### Get a logger
 
+```gdscript
+# Ask the autoloaded object for a new logger
+var logger = Log4Gd.get_logger(__class_name, Log4GD.LogLevel.DEBUG)
+```
+
+### Use a logger
+
+```
 func _ready():
-    logger.info("Hello World")
+	logger.info("Hello World")
+```
+
+### Print all defined loggers
+
+```
+print(Log4Gd)
 ```
